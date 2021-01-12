@@ -14,8 +14,7 @@ function Portfolio() {
                 </Row>
                 <Row>
                     <Col size="md-12">
-                    <Project></Project>
-                        <p>If you would like to say hi, you can get in <a href="contact.html">contact</a>  with me by phone or email!</p>
+                    <Project></Project>    
                     </Col>
                 </Row>
             </Container>

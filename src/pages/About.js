@@ -24,7 +24,7 @@ function About() {
                     <Col size="md-12">
                         <p> I am a Full-Stack Web Developer.</p>
                         <p>Currently working in the healthcare industry for Donor Network of Arizona, a federally designated, nonprofit organ procurement organization.</p>
-                        <p>Checkout my <a href="portfolio.html">portfolio</a> to see recent projects that I have worked on.</p>
+                        <p>Checkout my <a href="/portfolio">portfolio</a> to see recent projects that I have worked on.</p>
                         <p>Take a look at my <a href="assets/DEVELOPER_RESUME_2020.pdf" target="_blank">resume</a> and <a href="https://github.com/alligatormonday" rel="noreferrer" target="_blank">GitHub</a> for a more comprehensive overview of my experience.
                 </p>
                         <p>If you would like to say hi, you can get in <a href="contact.html">contact</a>  with me by phone or email!</p>

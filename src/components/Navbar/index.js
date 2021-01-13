@@ -40,12 +40,12 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="https://docs.google.com/document/d/17X40IT-DeJSXVyl3ppgvui5OrA4x0iaQct5hN7rWVHA/edit?usp=sharing"
+            <a
+              target="_blank "href="https://docs.google.com/document/d/17X40IT-DeJSXVyl3ppgvui5OrA4x0iaQct5hN7rWVHA/edit?usp=sharing"
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
             >
               Resume
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

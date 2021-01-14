@@ -12,12 +12,12 @@ function About() {
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
-                        <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 50}}><FaTerminal/>Hello!</h3>
+                        <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 40}}><FaTerminal/>Hello!</h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col size="md-12">
-                        <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 50}}>My name is Joseph Jepson</h3>
+                        <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 40}}>My name is Joseph Jepson</h3>
                     </Col>
                 </Row>
                 <Jumbotron>

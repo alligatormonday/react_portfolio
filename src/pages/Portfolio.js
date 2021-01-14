@@ -9,7 +9,7 @@ function Portfolio() {
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
-                        <h3 style={{fontSize: 50}}>Recent Projects</h3>
+                        <h3 style={{fontSize: 40}}>Recent Projects</h3>
                     </Col>
                 </Row>
                 <Row>

@@ -7,11 +7,13 @@ import Burger_Express_Image from "./burger_express_DEMO.png"
 import MySQL_Employee_Image from "./mysql_employee_DEMO.png"
 import Card from 'react-bootstrap/Card'
 import CardColumns from 'react-bootstrap/CardColumns'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 function Hero() {
     return (
         <>
+        <Jumbotron>
             <CardColumns>
                 <Card.Img variant="top" src={Quizzical_Image} />
                 <Card.Body>
@@ -56,6 +58,7 @@ function Hero() {
                     </Card.Text>
                 </Card.Body>
             </CardColumns>
+            </Jumbotron>
         </>
     );
 }

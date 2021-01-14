@@ -16,7 +16,7 @@ function Footer() {
               class="fab fa-linkedin-in social-icon"></i></a>
             <a href="https://github.com/alligatormonday" rel="noreferrer" target="_blank"><i class="fab fa-github social-icon"></i></a>
           </Col>
-          <span style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>Handcrafted by Joseph Jepson &#169; 2021. All Rights Reserved</span>
+          <span style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>Handcrafted by Joseph Jepson &#169; 2021 All Rights Reserved</span>
         </Row>
       </footer>
     </Container>

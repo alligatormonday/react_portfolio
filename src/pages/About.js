@@ -10,20 +10,20 @@ function About() {
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
-                        <h4>Hello!</h4>
+                        <h4 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>Hello!</h4>
                     </Col>
                 </Row>
                 <Row>
                     <Col size="md-12">
-                        <h4>My name is Joseph Jepson</h4>
+                        <h4 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>My name is Joseph Jepson</h4>
                     </Col>
                 </Row>
                 <Jumbotron>
                 <Row>
-                    <Col size="md-12">
+                    <Col size="6">
                         <Hero></Hero>
                     </Col>
-                    <Col size="md-12">
+                    <Col size="6">
                         <p> I am a Full-Stack Web Developer.</p>
                         <p>Currently working in the healthcare industry for Donor Network of Arizona, a federally designated, nonprofit organ procurement organization.</p>
                         <p>Checkout my <a href="/portfolio">portfolio</a> to see recent projects that I have worked on.</p>

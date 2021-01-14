@@ -1,22 +1,26 @@
-.footer {
-  min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
+/* Footer background and centers content */
+
+
+.social-icon {
   display: flex;
   justify-content: center;
-}
-
-.social-media i {
-  font-size: 180px;
+  font-size: 30px;
   margin: 12px;
   padding-top: 10px;
 }
-.social-media i:hover {
-  color: rgba(206, 202, 202, 0.2)
+
+.copyright {
+  font-size: 16px;
 }
 
-
-
+/* .social-media i {
+  font-size: 180px;
+  margin: 12px;
+  padding-top: 10px;
+} */
+/* .social-media i:hover {
+  color: rgba(206, 202, 202, 0.2)
+} */
 
 /* .footer span {
   margin:0 auto;

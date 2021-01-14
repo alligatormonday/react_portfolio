@@ -2,6 +2,7 @@ import Hero from "../components/Hero/index";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function About() {
     return (
@@ -17,6 +18,7 @@ function About() {
                         <h4>My name is Joseph Jepson</h4>
                     </Col>
                 </Row>
+                <Jumbotron>
                 <Row>
                     <Col size="md-12">
                         <Hero></Hero>
@@ -30,6 +32,7 @@ function About() {
                         <p>If you would like to say hi, you can get in <a href="/contact">contact</a>  with me by phone or email!</p>
                     </Col>
                 </Row>
+                </Jumbotron>
             </Container>
         </div>
     );

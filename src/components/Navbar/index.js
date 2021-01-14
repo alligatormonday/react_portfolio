@@ -1,9 +1,11 @@
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
+  const location = useLocation()
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/about">
@@ -15,7 +17,7 @@ function Navbar() {
             <Link
               to="/about"
               className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
+                location.pathname === "/" || location.pathname === "/about"
                   ? "nav-link active"
                   : "nav-link"
               }
@@ -26,7 +28,7 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+              className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
               Portfolio
             </Link>
@@ -34,15 +36,15 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+              className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>
           </li>
           <li className="nav-item">
             <a
-              target="_blank "href="https://docs.google.com/document/d/17X40IT-DeJSXVyl3ppgvui5OrA4x0iaQct5hN7rWVHA/edit?usp=sharing"
-              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+              target="_blank " href="https://docs.google.com/document/d/17X40IT-DeJSXVyl3ppgvui5OrA4x0iaQct5hN7rWVHA/edit?usp=sharing"
+              className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
             >
               Resume
             </a>

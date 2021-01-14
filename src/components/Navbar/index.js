@@ -8,7 +8,7 @@ function Navbar() {
   
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/about">
+      <Link className="navbar-brand" to="/about" style={{fontSize: 30}}>
         Joseph Jepson
       </Link>
       <div>

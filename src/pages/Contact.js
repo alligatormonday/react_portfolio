@@ -10,24 +10,24 @@ function Contact() {
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
-                        <h4>Give me a buzz</h4>
+                        <h3 style={{fontSize: 50}}>Give Me A Buzz</h3>
                     </Col>
                 </Row>
                 <Jumbotron>
                     <Row>
                         <Col size="md-12">
-                            <p class="lead social">Email: <a href="mailto:joey@joeyjepson.com" rel="noreferrer" target="_blank" type="btn">joey@joeyjepson.com</a>
+                            <p style={{fontSize: 30}}>Email: <a href="mailto:joey@joeyjepson.com" rel="noreferrer" target="_blank" type="btn">joey@joeyjepson.com</a>
                             </p>
 
-                            <p class="lead social">Cell: <a href="tel:480-643-0778" rel="noreferrer" target="_blank" type="btn">(480) 643-0778</a>
+                            <p style={{fontSize: 30}}>Cell: <a href="tel:480-643-0778" rel="noreferrer" target="_blank" type="btn">(480) 643-0778</a>
                             </p>
 
-                            <p class="lead social">LinkedIn: <a href="https://www.linkedin.com/in/josephjepson/" rel="noreferrer" target="_blank" type="btn">
+                            <p style={{fontSize: 30}}>LinkedIn: <a href="https://www.linkedin.com/in/josephjepson/" rel="noreferrer" target="_blank" type="btn">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                             </p>
 
-                            <p class="lead social">GitHub: <a href="https://github.com/alligatormonday" rel="noreferrer" target="_blank" type="btn">
+                            <p style={{fontSize: 30}}>GitHub: <a href="https://github.com/alligatormonday" rel="noreferrer" target="_blank" type="btn">
                                 <i class="fab fa-github"></i>
                             </a>
                             </p>

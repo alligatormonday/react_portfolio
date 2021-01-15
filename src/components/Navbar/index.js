@@ -14,13 +14,7 @@ function Navbar() {
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link
-              to="/about"
-              className={
-                location.pathname === "/" || location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
+            <Link to="/about" className={location.pathname === "/" || location.pathname === "/about" ? "nav-link active": "nav-link"}
             >
               About
             </Link>

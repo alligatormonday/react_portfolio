@@ -4,7 +4,7 @@
 
 ![Demo of application](public/assets/react_portfolio_DEMO.gif)
 
-Video of demo: [react_portfolio_DEMO](https://drive.google.com/file/d/1BZ_ZmQIxalEfE_DPwy_JrYVN0F7X6G6t/view) 
+Video of demo: [react_portfolio_DEMO](https://drive.google.com/file/d/1OOcKlO8J_u9RdgzMP7dSeaU3k51Zci1t/view) 
 
 ![License](https://img.shields.io/badge/License-MIT-yellow) 
 ## 👤 Author: Joseph Jepson 
@@ -20,7 +20,7 @@ Video of demo: [react_portfolio_DEMO](https://drive.google.com/file/d/1BZ_ZmQIxa
   ## Description: 
 This is my most current portfolio (as of January, 2021). It features six various projects that I have completed recently, as well as my contact information.
 
-This application utilizes React.js, React-BootStrap, Node.js, ESlint, CSS, HTML.
+My portfolio was built with React.js, Tailwind CSS, Bootstrap, Node.js, ESlint, CSS and HTML.
 
 ![Image of DEMO application](public/assets/DEMO_image.png)
 

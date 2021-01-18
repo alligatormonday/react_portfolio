@@ -1,43 +1,26 @@
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
-import Jumbotron from 'react-bootstrap/Jumbotron'
-
-
 function Contact() {
     return (
         <div>
-            <Container style={{ marginTop: 30 }}>
-                <Row>
-                    <Col size="md-12">
-                        <h3 style={{fontSize: 40}}>Give Me A Buzz</h3>
-                    </Col>
-                </Row>
-                <Jumbotron>
-                    <Row>
-                        <Col size="md-12">
-                            <p style={{fontSize: 30}}>Email: <a href="mailto:joey@joeyjepson.com" rel="noreferrer" target="_blank" type="btn">joey@joeyjepson.com</a>
-                            </p>
-
-                            <p style={{fontSize: 30}}>Cell: <a href="tel:480-643-0778" rel="noreferrer" target="_blank" type="btn">(480) 643-0778</a>
-                            </p>
-
-                            <p style={{fontSize: 30}}>LinkedIn: <a href="https://www.linkedin.com/in/josephjepson/" rel="noreferrer" target="_blank" type="btn">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            </p>
-
-                            <p style={{fontSize: 30}}>GitHub: <a href="https://github.com/alligatormonday" rel="noreferrer" target="_blank" type="btn">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            </p>
-                        </Col>
-                    </Row>
-                </Jumbotron>
-            </Container>
+            <div>
+                <h3 style={{ margin: '0 auto', alignContent: 'center', textAlign: 'left', fontSize: 30 }} className='sm:p-3'>Give Me A Buzz</h3>
+            </div>
+            <div className='flex flex-col sm:px-12 mx-auto bg-gray-400 items-center justify-center sm:items-between sm:p-8 sm:flex-row'>
+                <div className='flex-grow sm:p-8'>
+                    <p style={{ fontSize: 30 }}>Email: <a className='text-yellow-300 hover:text-black' href="mailto:joey@joeyjepson.com" rel="noreferrer" target="_blank" type="btn">joey@joeyjepson.com</a>
+                    </p>
+                    <p style={{ fontSize: 30 }}>Cell: <a className='text-yellow-300 hover:text-black' href="tel:480-643-0778" rel="noreferrer" target="_blank" type="btn">(480) 643-0778</a>
+                    </p>
+                    <p style={{ fontSize: 30 }}>LinkedIn: <a className='text-yellow-300 hover:text-black' href="https://www.linkedin.com/in/josephjepson/" rel="noreferrer" target="_blank" type="btn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    </p>
+                    <p style={{ fontSize: 30 }}>GitHub: <a className='text-yellow-300 hover:text-black' href="https://github.com/alligatormonday" rel="noreferrer" target="_blank" type="btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    </p>
+                </div>
+            </div>
         </div>
-
-
     )
 }
 

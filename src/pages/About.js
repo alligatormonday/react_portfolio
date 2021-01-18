@@ -9,7 +9,7 @@ function About() {
             </div>
             <div className='flex flex-col sm:px-12 mx-auto bg-gray-100 items-center justify-center sm:items-between sm:p-8 sm:flex-row'>
                 <div>
-                <img className='mx-auto mb-4 sm:mb-0 flex-shrink' src="/Profile_Photo.jpg"/>
+                <img className='mx-auto mb-4 sm:mb-0 flex-shrink' src="/Profile_Photo.jpg" alt="Joseph Jepson"/>
                 </div>
                 <div className='flex-grow sm:p-8'>
                     <p className='sm:text-4xl md:text-6xl text-2xl font-bold'> I am a Full-Stack Web Developer.</p>

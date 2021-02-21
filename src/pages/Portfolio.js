@@ -2,8 +2,22 @@ function Portfolio() {
     return (
         <div>
             <div>
-            <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 30}} className='sm:p-3'>Recent projects</h3>
+            <h3 style={{margin: '0 auto', alignContent: 'center', textAlign: 'center', fontSize: 30}} className='sm:p-3 pb-4'>Recent projects</h3>
             </div>
+            <div className="max-w-md mx-auto bg-gray-400 rounded-xl shadow-md overflow-hidden lg:max-w-2xl group hover:bg-gray-400 hover:shadow-xxl hover:border-transparent ...">
+                <div className="md:flex">
+                    <div className="md:flex-shrink-0">
+                        <img className="h-64 w-full object-cover md:w-64" src="/onboard_DEMO.png" alt="Screenshot of Quizzical app" />
+                    </div>
+                    <div className="p-3">
+                        <div className="uppercase tracking-wide text-sm text-black-300 font-semibold">OnBoard</div>
+                        <a href="https://onboard-proj.herokuapp.com/" rel='noreferrer 'target='_blank' className="block mt-1 text-lg leading-tight font-medium text-yellow-300 hover:text-black">Onboarding made easy!</a>
+                        <p className="mt-2 text-black group-hover:text-gray-900">A MERN application designed to simplify the onboarding process. Users can be assigned tasks, upload documents, review policies, and complete training modules. Administrators can manage all data from the back-end with full CRUD capabilities. View the <a href="https://github.com/alligatormonday/OnBoard" rel="noreferrer" target="_blank" className='text-yellow-300 hover:text-black'>repository here!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="pt-4">
             <div className="max-w-md mx-auto bg-gray-400 rounded-xl shadow-md overflow-hidden lg:max-w-2xl group hover:bg-gray-400 hover:shadow-xxl hover:border-transparent ...">
                 <div className="md:flex">
                     <div className="md:flex-shrink-0">
@@ -16,6 +30,7 @@ function Portfolio() {
                         </p>
                     </div>
                 </div>
+            </div>
             </div>
             <div className="pt-4">
             <div className="max-w-md mx-auto bg-gray-400 rounded-xl shadow-md overflow-hidden lg:max-w-2xl group hover:bg-gray-400 hover:shadow-xxl hover:border-transparent ...">
@@ -86,7 +101,7 @@ function Portfolio() {
                     <div className="p-3">
                         <div className="uppercase tracking-wide text-sm text-black-300 font-semibold">MySQL Employee Tracker</div>
                         <a href="https://drive.google.com/file/d/1A7vlyTgxvLf7moCUhghVpJKEeEMBKIyD/view" rel='noreferrer 'target='_blank' className="block mt-1 text-lg leading-tight font-medium text-yellow-300 hover:text-black">Video demo of this application!</a>
-                        <p className="mt-2 text-black group-hover:text-gray-900">CLI application that allows users to manage their business. This application uses MySQL, and Node.js Checkout the demo in the above link. View the <a href="https://github.com/alligatormonday/mysql_employee_tracker" rel="noreferrer" target="_blank" className='text-yellow-300 hover:text-black'>repository here!</a>
+                        <p className="mt-2 text-black group-hover:text-gray-900">CLI application that allows businesses to manage their employees, departments, and roles. This application uses MySQL, and Node.js Checkout the demo in the above link. View the <a href="https://github.com/alligatormonday/mysql_employee_tracker" rel="noreferrer" target="_blank" className='text-yellow-300 hover:text-black'>repository here!</a>
                         </p>
                     </div>
                 </div>
